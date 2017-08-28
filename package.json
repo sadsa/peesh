@@ -1,0 +1,11 @@
+{
+  "name": "peesh",
+  "version": "1.0.0",
+  "description": "A collection of Front-End assets and starting point to help streamline development setup time",
+  "main": "index.js",
+  "author": "Joshua Biddick",
+  "license": "MIT",
+  "dependencies": {
+    "inuitcss": "^6.0.0-beta.5"
+  }
+}
