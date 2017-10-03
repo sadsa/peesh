@@ -2,10 +2,41 @@
   "name": "peesh",
   "version": "1.0.0",
   "description": "A collection of Front-End assets and starting point to help streamline development setup time",
+  "scripts": {
+    "prestart": "babel-node tools/startMessage.js",
+    "start": "npm-run-all --parallel open:src lint:watch",
+    "open:src": "babel-node tools/srcServer.js",
+    "lint": "node_modules/.bin/esw webpack.config.* src tools",
+    "lint:watch": "yarn run lint --watch"
+  },
   "main": "index.js",
   "author": "Joshua Biddick",
   "license": "MIT",
   "dependencies": {
-    "inuitcss": "^6.0.0-beta.5"
+    "bootstrap": "4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-env": "^2.4.1",
+    "babel-loader": "^7.1.2",
+    "babel-register": "^6.8.0",
+    "colors": "^1.1.2",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.8.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-watch": "^3.1.2",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.16.1",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.1.1",
+    "open": "^0.0.5",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.19.1"
   }
 }
