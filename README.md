@@ -1,6 +1,6 @@
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3129129/22811426/bb69dc06-ef0c-11e6-8092-a0bea9060b35.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/sadsa/peesh/master/src/images/logo.png"/></p>
 
-Starter kit for rapid website development. 
+**Starter kit for rapid website development.**
 
 ## Get Started
 1. **Clone the project**. `git clone https://github.com/sadsa/peech.git`.
