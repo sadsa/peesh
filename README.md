@@ -1,9 +1,9 @@
-<p align="center"><img src="https://raw.githubusercontent.com/sadsa/peesh/master/src/images/logo.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/sadsa/peesh/master/src/images/logo.jpg"/></p>
 
 **Starter kit for rapid website development.**
 
 ## Get Started
-1. **Clone the project**. `git clone https://github.com/sadsa/peech.git`.
+1. **Clone the project**. `git clone https://github.com/sadsa/peesch.git`.
 2. **Run the example app**. `yarn start`
 This will run the automated build process, start up a webserver, and open the application in your default browser. When doing development with this kit, this command will continue watching all your files. Every time you hit save the code is rebuilt, linting runs, and tests run automatically.
 3. **Having issues?** See "Having Issues?" below.
@@ -14,7 +14,7 @@ This will run the automated build process, start up a webserver, and open the ap
 3. **[Disable safe write in your editor](https://webpack.js.org/guides/development/#adjusting-your-text-editor)** to assure hot reloading works properly.
 
 ## Having Issues? Try these things first.
-1. Make sure you ran all steps in [Get started](https://github.com/sadsa/peech/blob/master/README.md#get-started) including the [initial machine setup](https://github.com/coryhouse/react-slingshot#initial-machine-setup).
+1. Make sure you ran all steps in [Get started](https://github.com/sadsa/peesh/blob/master/README.md#get-started) including the [initial machine setup](https://github.com/coryhouse/react-slingshot#initial-machine-setup).
 2. Run `yarn` - If you forget to do this, you'll see this: `babel-node: command not found`.
 3. Install the latest version of Node. Or install [Node 5.12.0](https://nodejs.org/download/release/v5.12.0/) if you're having issues on Windows. Node 6 has issues on some Windows machines.
 4. Make sure files with names that begin with a dot (.babelrc, .editorconfig, .eslintrc) are copied to the project directory root. This is easy to overlook if you copy this repository manually.
