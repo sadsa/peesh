@@ -3,7 +3,7 @@
 **Starter kit for rapid website development.**
 
 ## Get Started
-1. **Clone the project**. `git clone https://github.com/sadsa/peesch.git`.
+1. **Clone the project**. `git clone https://github.com/sadsa/peesh.git`.
 2. **Run the example app**. `yarn start`
 This will run the automated build process, start up a webserver, and open the application in your default browser. When doing development with this kit, this command will continue watching all your files. Every time you hit save the code is rebuilt, linting runs, and tests run automatically.
 3. **Having issues?** See "Having Issues?" below.
