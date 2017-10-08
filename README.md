@@ -14,7 +14,7 @@ This will run the automated build process, start up a webserver, and open the ap
 3. **[Disable safe write in your editor](https://webpack.js.org/guides/development/#adjusting-your-text-editor)** to assure hot reloading works properly.
 
 ## Having Issues? Try these things first.
-1. Make sure you ran all steps in [Get started](https://github.com/sadsa/peesh/blob/master/README.md#get-started) including the [initial machine setup](https://github.com/coryhouse/react-slingshot#initial-machine-setup).
+1. Make sure you ran all steps in [Get started](https://github.com/sadsa/peesh/blob/master/README.md#get-started) including the [initial machine setup](https://github.com/sadsa/peesh#initial-machine-setup).
 2. Run `yarn` - If you forget to do this, you'll see this: `babel-node: command not found`.
 3. Install the latest version of Node. Or install [Node 5.12.0](https://nodejs.org/download/release/v5.12.0/) if you're having issues on Windows. Node 6 has issues on some Windows machines.
 4. Make sure files with names that begin with a dot (.babelrc, .editorconfig, .eslintrc) are copied to the project directory root. This is easy to overlook if you copy this repository manually.
